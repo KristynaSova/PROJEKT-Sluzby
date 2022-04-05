@@ -129,6 +129,7 @@ a{
     .icon p{
         padding: 0 15px 20px 15px;
         text-align: center;
+        margin: 0;
     }
 
     .text-box{
@@ -136,4 +137,77 @@ a{
         width:550px;
     }
     
+}
+
+@media screen and (min-width:1100px){
+    body{
+        max-width: 1040px;
+        margin: 0 auto;
+    }
+    .container1,
+    .container2,
+    .container3{
+        display: flex;
+        margin-bottom: 80px;
+        align-items: center;
+        gap: 60px;
+    }
+
+   
+    .happy{
+        order:1;
+        flex-basis: 490px;
+    }
+    .happy-text{
+        width: 100%;
+        
+    }
+
+    .happy-text h1, p{
+        text-align: left;
+    }
+
+    .happy-text hr{
+        margin: 10px 0 30px 0;
+    }
+    .traveler{
+        order:2;
+        flex-basis:490px;
+        
+    }
+    .traveler img{
+        max-width: 425px;
+        margin:0 auto;
+    }
+
+    .buttons-flex{
+        justify-content: flex-start;
+    }
+
+    .one{
+        order:-1;
+    }
+
+    .icon-box{
+        flex-basis: 550px;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .icon{
+        margin: 0;
+    }
+    .text-box{
+        width:430px;
+        margin: 0;
+        text-align: left;
+        align-items: baseline;
+    }
+    .text-box h2{
+        text-align: left;
+        
+
+    }
+
+   
 }
