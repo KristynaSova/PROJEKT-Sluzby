@@ -35,14 +35,14 @@ hr{
     font-size: 16px;
     text-align: center;
     color: #000000;
-    margin-bottom: 15px;
+    margin: 0 0 15px 0;
 }
 
 .text-box p{
     font-size: 16px;
     text-align: center;
     color: #8B8B8B;
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
 }
 
 .icon{
@@ -146,11 +146,12 @@ a{
         padding: 0;
     }
     .icon-text{
-        margin: 20px 15px;
+        margin: 20px 15px 40px 15px;
     }
 
     .icon-text p{
         text-align: center;
+        margin: 0;
     }
 
     .text-box{
@@ -191,6 +192,7 @@ a{
 
     .happy-text p{
         text-align: left;
+        
     }
 
     .happy-text hr{
@@ -238,8 +240,13 @@ a{
 
     .text-box p{
         text-align: left;
-        
+          
+    }
 
+
+
+    .icon-text p{
+        margin: 0;
     }
 
    
